@@ -1,8 +1,8 @@
 package main
 
 import (
-	"adrianmoya.com/go-web-hello/Godeps/_workspace/src/github.com/gorilla/mux"
 	"fmt"
+	"github.com/adrianmoya/go-web-hello/Godeps/_workspace/src/github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
@@ -23,5 +23,5 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hi there, I love Go (or what?)!")
+	fmt.Fprintf(w, "Hello world go")
 }
