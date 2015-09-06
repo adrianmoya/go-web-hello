@@ -1,1 +1,1 @@
-go-web-hello
+web: go-web-hello
